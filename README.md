@@ -101,17 +101,3 @@ node test/apply.test.mjs
 node test/cordis.test.mjs
 ```
 
-## 发布到 npm（维护者）
-
-```bash
-npm login                 # 浏览器完成登录
-npm version patch         # 或 minor / major
-npm pack --dry-run        # 检查将上传的文件
-npm publish --access public
-```
-
-`package.json` 里不要保留 `"private": true`，否则 `npm publish` 会被拒绝。
-
-## License
-
-UNLICENSED — 未授予开源许可，仅供作者授权的学习/研究使用。
