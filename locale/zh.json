@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ibwedu 实验助手",
+    "description": "直连 VNC 控制 Ibwedu 实验虚拟机，用 Windows UI Automation 操作平台页面，并提供 PDF 解析：lab_session、lab_shot、lab_act、lab_platform、lab_pdf。"
+  }
+}

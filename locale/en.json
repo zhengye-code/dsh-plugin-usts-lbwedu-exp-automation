@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ibwedu Lab",
+    "description": "Drives the Ibwedu lab VM directly over VNC and the platform page through Windows UI Automation: lab_session, lab_shot, lab_act, lab_platform, lab_pdf."
+  }
+}

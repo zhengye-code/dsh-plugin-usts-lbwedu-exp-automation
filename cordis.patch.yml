@@ -1,0 +1,7 @@
+# Host-only bundle for the Ibwedu lab tools. The tools talk to the lab VM over
+# RFB/WebSocket, drive the platform page through Windows UI Automation, and read
+# experiment PDFs with PyMuPDF.
+- insert:
+    - id: ibwedu-lab
+      name: dsh-plugin-ibwedu-lab
+      config: {}
