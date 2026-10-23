@@ -6,22 +6,16 @@
 
 ## 安装
 
-npm（如果已发布）：
+把仓库克隆到任意目录：
 
 ```bash
-npm install dsh-plugin-ibwedu-lab
+git clone git@github.com:zhengye-code/dsh-plugin-usts-lbwedu-exp-automation.git
 ```
 
-在 DSH 里安装（推荐）：
+然后在 DSH 里安装这个目录（把 `<仓库所在目录>` 换成实际克隆位置）：
 
 ```text
-plugin_manager action=install_bundle target=dsh-plugin-ibwedu-lab
-```
-
-本地开发时可以直接指向源码目录：
-
-```text
-plugin_manager action=install_bundle target=D:\path\to\dsh-plugin-usts-lbwedu-exp-automation
+plugin_manager action=install_bundle target=<仓库所在目录>
 ```
 
 安装后**重启一次 DSH**，新对话即可看到 `lab_*` 工具。
